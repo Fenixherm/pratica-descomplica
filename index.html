@@ -4,12 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criação e Gerenciamento de um Repositório no GitHub</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .cabecalho{
+            display: flex;
+            align-items: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 5%;
+            padding-right: 5%;
+            justify-content: space-between;
+        }
+        
+        .link{
+            margin-left: 30px;
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+        }
+
+        .titulo-topo{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            font-size: 2rem;
+            font-weight: bold;
+            font-family: sans-serif;
+            background-color: rgba(143, 143, 143, 0.235);
+        }
+
+        .cartao-centro{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 2rem;
+        }
+
+        .cartao-centro img{
+            width: 80%;
+            border-radius: 25px;
+        }        
+    </style>
 </head>
 <body>
-    <header>
+    <header class="cabecalho">
         <a href="#">
-            
+            <img src="./images/logo-verde.svg" >
         </a>
+        <div class="links">
+            <a href="#" class="link">Enem e vestibular</a>
+            <a href="#" class="link">Vestibular Medicina</a>
+            <a href="#" class="link">Graduação</a>
+            <a href="#" class="link">Pós</a>
+            <a href="#" class="link">Cursos livres</a>
+        </div>
     </header>
+    <body>
+        <h2 class="titulo-topo">Do Cursinho Pré-Vestibular à Faculdade e Pós-Graduação</h2>
+        <div class="cartao-centro">
+            <img src="./images/descomplica-garoto.webp" alt="">
+        </div>
+    </body>
+
+
 </body>
 </html>
